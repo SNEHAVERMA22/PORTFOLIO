@@ -5,20 +5,20 @@ import { motion } from "framer-motion";
 const Experience = () => {
   const experiences = [
     {
-      title: "Web Development Intern",
-      company: "Oasis Infobytes",
-      period: "Nov 2023 – Dec 2023",
+      title: "Senior Mentor",
+      company: "Robotics Club, IET Lucknow",
+      period: "Feb 2024 – Present",
       description:
-        "Completed four core projects including a calculator, tribute page, and a MERN-based ToDo web app with JWT authentication for secure login.",
+        "Led 100+ students in AI/ML training and organized technical events across Robotics, Web Dev, and AI.",
       icon: "💼",
     },
     {
-      title: "MERN Stack Trainee",
-      company: "Logic Pro Info System",
-      period: "Dec 2022 – Apr 2023",
-      description:
-        "Created an expense tracker and gained strong hands-on experience with MongoDB, Express, React, and Node.js.",
-      icon: "⚡",
+      title: "Operations Team",
+      company: "Hult Prize, IET Lucknow",
+period: "Sept 2023 – Jun 2024",
+description:
+        " Mentored 200+ students in prototyping and pitching AI-driven solutions, driving engagement up to 100% through technical campaigns",
+icon: "⚡",
     },
   ];
 

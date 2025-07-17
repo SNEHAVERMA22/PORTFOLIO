@@ -68,13 +68,13 @@ const About = () => {
           <motion.div variants={slideInLeft} className="lg:col-span-2">
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 dark:border-gray-700">
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-                I'm Pranjal Gupta, a passionate and self-motivated full-stack
-                web developer currently pursuing my MCA at GL Bajaj Institute of
-                Technology and Management. I specialize in the MERN stack and
-                have worked on several impactful projects. I thrive on solving
-                real-world problems and am constantly exploring new tools and
-                techniques to grow. My journey in web development combines
-                technical expertise with creative problem-solving.
+                I'm Sneha Verma, a passionate and self-driven AI/ML engineer currently pursuing 
+                my B.Tech at the Institute of Engineering and Technology. I have worked on several
+                impactful, real-world projects that reflect my curiosity and dedication to solving
+                meaningful problems through artificial intelligence.My journey is fueled by a deep 
+                interest in machine learning, natural language processing, and exploring innovative
+                tools and techniques to continuously grow. I thrive on challenges and believe in 
+                using AI to create solutions that make a difference.
               </p>
 
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 flex items-center">
@@ -84,18 +84,13 @@ const About = () => {
               <div className="space-y-6">
                 {[
                   {
-                    school: "GL Bajaj Institute of Technology and Management",
-                    degree: "MCA – 8.00 CGPA (2023–Present)",
+                    school: "Institute of Engineering and Technology, Lucknow",
+                    degree: "B.Tech CSE – 8.60 CGPA (2022–Present)",
                     icon: "🎓",
                   },
                   {
-                    school: "National Post Graduate College, Lucknow",
-                    degree: "BCA – 6.5 CGPA (2020–2023)",
-                    icon: "📚",
-                  },
-                  {
-                    school: "Red Rose Senior Secondary School, Lucknow",
-                    degree: "PCM – 89% (2019–2020)",
+                    school: "Gyan Sthali Academy, Etawah",
+                    degree: "PCM – 96.6% (2020–2021)",
                     icon: "🏫",
                   },
                 ].map((edu, index) => (
@@ -123,9 +118,9 @@ const About = () => {
 
           <motion.div variants={slideInRight} className="space-y-8">
             {[
-              { number: "10+", label: "Projects Completed", icon: "🚀" },
-              { number: "30+", label: "GitHub Contributions", icon: "📊" },
-              { number: "200+", label: "DSA Problems Solved", icon: "🧩" },
+              { number: "4", label: "Projects Completed", icon: "🚀" },
+              { number: "100+", label: "GitHub Contributions", icon: "📊" },
+              { number: "20+", label: "DSA Problems Solved", icon: "🧩" },
             ].map((stat, index) => (
               <motion.div
                 key={index}

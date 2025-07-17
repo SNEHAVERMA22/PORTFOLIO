@@ -6,25 +6,25 @@ export const contactInfo: ContactInfoItem[] = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'pranjal1gupta811@gmail.com',
-    href: 'mailto:pranjal1gupta811@gmail.com'
+    value: 'sneha2205verma@gmail.com',
+    href: 'mailto:sneha2205verma@gmail.com'
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
     value: 'Connect with me',
-    href: 'https://linkedin.com/in/pranjalgupta811'
+    href: 'https://www.linkedin.com/in/sneha-verma-42457025a/'
   },
   {
     icon: Github,
     label: 'GitHub',
     value: 'View my projects',
-    href: 'https://github.com/Pranjal1gupta'
+    href: 'https://github.com/SNEHAVERMA22'
   },
   {
     icon: Code,
     label: 'LeetCode',
     value: 'See my solutions',
-    href: 'https://leetcode.com/u/pranjal1gupta811'
+    href: 'https://leetcode.com/u/snehaverma_2204/'
   }
 ];
