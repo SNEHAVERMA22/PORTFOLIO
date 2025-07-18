@@ -16,7 +16,7 @@ const Navigation = ({ activeSection, scrollToSection }: NavigationProps) => {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent dark:from-emerald-400 dark:to-blue-400">
-            Pranjal Gupta
+            Sneha Verma
           </div>
           
           {/* Desktop Navigation */}

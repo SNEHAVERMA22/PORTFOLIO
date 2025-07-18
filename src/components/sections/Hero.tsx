@@ -1,7 +1,7 @@
 import { Download, ArrowRight, ChevronDown, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import cover from "@/media/cover4.png";
-import qr from "@/media/qrcode_Linkedin.png";
+import cover from "@/media/sneha_sciencecity.jpg";
+
 import {
   Tooltip,
   TooltipContent,
@@ -28,11 +28,11 @@ const Hero = ({ scrollToSection }: HeroProps) => {
 
             <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 dark:text-white leading-tight mb-6">
               <span className="inline-block animate-slide-in-left">
-                Pranjal
+                Sneha
               </span>
               <br />
               <span className="bg-gradient-to-r from-emerald-600 to-blue-600 dark:from-emerald-400 dark:to-blue-400 bg-clip-text text-transparent inline-block animate-slide-in-right">
-                Gupta
+                Verma
               </span>
             </h1>
 
@@ -61,7 +61,7 @@ const Hero = ({ scrollToSection }: HeroProps) => {
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
               <a
-                href="https://drive.google.com/file/d/15T7WAfw235Mmda63_Mjc5o5hXfI96pdJ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1h_QvjGap5MDjMqmKQ_jBVbimSvRU6-Pr/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -90,21 +90,7 @@ const Hero = ({ scrollToSection }: HeroProps) => {
               <div className="absolute bottom-4 right-4 w-6 h-6 bg-emerald-600 dark:bg-emerald-400 rounded-full animate-ping opacity-40"></div>
             </div>
 
-            {/* Enhanced QR Code placeholder */}
-            <div className="absolute top-8 right-8 w-16 h-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg flex items-center justify-center hover:shadow-xl transition-shadow duration-300 border border-gray-100 dark:border-gray-700">
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <img
-                    src={qr}
-                    alt="Portfolio QR Code"
-                    className="w-8 h-8 rounded"
-                  />
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>View Linkedin</p>
-                </TooltipContent>
-              </Tooltip>
-            </div>
+            
           </div>
         </div>
       </div>
