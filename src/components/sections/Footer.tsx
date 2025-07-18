@@ -11,9 +11,9 @@ const Footer = () => {
           </div>
           <div className="flex items-center space-x-6">
             {[
-              { icon: Mail, href: 'mailto:pranjal1gupta811@gmail.com', label: 'Email' },
-              { icon: Linkedin, href: 'https://linkedin.com/in/pranjalgupta811', label: 'LinkedIn' },
-              { icon: Github, href: 'https://github.com/Pranjal1gupta', label: 'GitHub' }
+              { icon: Mail, href: 'mailto:sneha2205verma@gmail.com', label: 'Email' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/sneha-verma-42457025a/', label: 'LinkedIn' },
+              { icon: Github, href: 'https://github.com/SNEHAVERMA22', label: 'GitHub' }
             ].map((social, index) => (
               <a 
                 key={index}
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2025 Pranjal Gupta. All rights reserved. Built by using React & Tailwind CSS</p>
+          <p>&copy; 2025 Sneha Verma. All rights reserved. Built by using React & Tailwind CSS</p>
         </div>
       </div>
     </footer>

@@ -7,28 +7,17 @@ const Services = () => {
   const services = [
     {
       icon: Code,
-      title: 'Full Stack Web Development',
-      description: 'End-to-end web solutions using modern technologies like MERN stack, ensuring scalable and robust applications.',
+      title: 'AI-Powered Web Apps',
+      description: 'Building intelligent web platforms using LangChain,APIs—featuring document Q&A, voice-enabled chat, summarization, and multi-modal interactions.',
       gradient: 'from-emerald-500 to-teal-600'
     },
     {
-      icon: Palette,
-      title: 'UI/UX Design',
-      description: 'Creating intuitive and engaging user experiences with modern design principles and user-centered approach.',
-      gradient: 'from-purple-500 to-pink-600'
-    },
-    {
       icon: Globe,
-      title: 'Web Design',
-      description: 'Custom WordPress development and bespoke web designs tailored to your business needs.',
+      title: 'Machine Learning Solutions',
+      description: 'Custom ML models for classification, recommendations, and automation using Scikit-learn, XGBoost, and TensorFlow.',
       gradient: 'from-blue-500 to-indigo-600'
-    },
-    {
-      icon: Presentation,
-      title: 'Poster & Presentation Design',
-      description: 'Professional visual communication materials for presentations, marketing, and branding purposes.',
-      gradient: 'from-orange-500 to-red-600'
     }
+    
   ];
 
   const containerVariants = {

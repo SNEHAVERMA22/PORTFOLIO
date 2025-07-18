@@ -38,19 +38,18 @@ const Hero = ({ scrollToSection }: HeroProps) => {
 
             <div className="space-y-2 text-xl text-gray-700 dark:text-gray-200">
               <p className="whitespace-nowrap overflow-hidden border-r-2 border-gray-600 animate-typewriter-delay-1">
-                Full Stack MERN Developer
+                AI/ML Engineer
               </p>
               <p className="whitespace-nowrap overflow-hidden border-r-2 border-gray-600 animate-typewriter-delay-2">
                 Tech Enthusiast
               </p>
               <p className="whitespace-nowrap overflow-hidden border-r-2 border-gray-600 animate-typewriter-delay-4">
-                UI/UX Designer
+                Graphic Designer
               </p>
             </div>
 
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-lg animate-fade-in-delay-4 my-2">
-              Crafting modern web solutions that merge design, performance, and
-              function.
+              Crafting modern AI-powered solutions that blend prediction, performance, and real-world impact.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-delay-5">

@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/tooltip";
 
 import expensetracker from "@/media/expense_tracker.png";
-import taskmanager from "@/media/Taskhub.png";
+import taskmanager from "@/media/Screenshot (146).png";
 import evanescent from "@/media/evanescent.png";
 import magma from "@/media/magma_ddt.png";
 
@@ -26,23 +26,16 @@ import rayban from "@/media/rayban.png";
 
 const Portfolio = () => {
   const featuredProjects = [
+    
     {
-      title: "Expense Tracker",
-      stack: ["React", "Node.js", "Express.js", "MongoDB"],
+      title: "AI Resume Analyzer",
+      stack: ["Python", "Streamlit", "Generative-AI"],
       description:
-        "Full-featured expense tracking platform with user and admin modules, secure login, and detailed reporting powered by MongoDB CRUD operations.",
-      image: expensetracker,
-      github: "https://github.com/Pranjal1gupta/Expense_Tracker_TRACKIT",
-      demo: null,
-    },
-    {
-      title: "Cloud-Based Task Manager",
-      stack: ["React", "Node.js", "Express.js", "MongoDB", "Recharts"],
-      description:
-        "Task management system with real-time collaboration, role-based access, chart analytics, and secure user authentication using bcrypt.js.",
+        `Developed an interactive Streamlit web app leveraging Gemini LLM API to match resumes with job descriptions, highlighting ATS keywords, match score, and tailored feedback.
+           Enabled PDF parsing and downloadable report generation to help users improve resume visibility and ATS optimization efficiently.`,
       image: taskmanager,
-      github: "https://github.com/Pranjal1gupta/Task_Manager",
-      demo: null,
+      github: "https://github.com/SNEHAVERMA22/MOD-ATS",
+      demo: "https://sneha-smart-resume-analyser.streamlit.app/",
     },
     {
       title: "Evanescent Equilibration",
@@ -65,54 +58,7 @@ const Portfolio = () => {
   ];
 
 const otherProjects = [
-  {
-    title: "Ray-Ban Landing Page",
-    stack: ["HTML", "CSS3", "Sherry.js"],
-    description: "Landing page featuring premium animations and smooth scroll experience.",
-    image: rayban,
-    github: "https://github.com/Pranjal1gupta/Rayban",
-    demo: "https://raybanhomepage.netlify.app/",
-  },
-  {
-    title: "TextUtils",
-    stack: ["React.js", "Bootstrap"],
-    description: "Text utility app for case conversion, removal of extra spaces, and more.",
-    image: textutils,
-    github: "https://github.com/Pranjal1gupta/textutils",
-    demo: "https://pranjal1gupta.github.io/textutils/",
-  },
-  {
-    title: "Martex",
-    stack: ["WordPress"],
-    description: "Responsive and elegant WordPress website with custom theme integration.",
-    image: martex,
-    github: "https://github.com/Pranjal1gupta/wordpress-tutorial",
-    demo: "https://lustrous-baklava-8f5fd7.netlify.app/home/",
-  },
-  {
-    title: "ToDo App",
-    stack: ["JavaScript"],
-    description: "Clean and intuitive todo application with local storage.",
-    image: todo,
-    github: "https://github.com/Pranjal1gupta/todo",
-    demo: "https://pranjal1gupta.github.io/todo/",
-  },
-  {
-    title: "Weather App",
-    stack: ["JavaScript API"],
-    description: "Real-time weather application with location-based forecasts.",
-    image: weather,
-    github: "https://github.com/Pranjal1gupta/WeatherApp",
-    demo: "https://pranjal1gupta.github.io/WeatherApp/",
-  },
-  {
-    title: "QR Code Generator",
-    stack: ["JavaScript"],
-    description: "Dynamic QR code generator with customization options.",
-    image: qrcode,
-    github: "https://github.com/Pranjal1gupta/QR-Code---generator",
-    demo: "https://pranjal1gupta.github.io/QR-Code---generator/",
-  },
+ 
   {
     title: "Random Password Generator",
     stack: ["HTML", "CSS", "JavaScript"],
